@@ -1,0 +1,37 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#snap1, #snap2{
+
+    cursor: pointer;
+}
+
+#trombi{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#trombi img{
+    width : 140px;
+    height: 100px;
+    padding: 10px;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.hide1{
+    display: none;
+}
+#time{
+    height: 80px;
+    cursor: pointer;
+}
